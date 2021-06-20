@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MvvMDatabaseDemo</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="create">Create</string>
+    <string name="create_todo">Create Todo</string>
+    <string name="please_enter_title">Please enter title</string>
+    <string name="please_enter_description">Please enter description</string>
+    <string name="todo_created_successfully">Todo created successfully</string>
+</resources>

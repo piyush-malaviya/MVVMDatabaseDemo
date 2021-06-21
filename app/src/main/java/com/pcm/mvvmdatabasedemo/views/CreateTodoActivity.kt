@@ -10,9 +10,9 @@ import com.pcm.mvvmdatabasedemo.db.AppDatabase
 import com.pcm.mvvmdatabasedemo.db.TodoViewModel
 import com.pcm.mvvmdatabasedemo.db.TodoViewModelFactory
 import com.pcm.mvvmdatabasedemo.db.entity.TodoEntity
+import com.pcm.mvvmdatabasedemo.extensions.setToolbarWithBack
+import com.pcm.mvvmdatabasedemo.extensions.showToast
 import com.pcm.mvvmdatabasedemo.model.TodoRepository
-import com.pcm.mvvmdatabasedemo.setToolbarWithBack
-import com.pcm.mvvmdatabasedemo.showToast
 
 class CreateTodoActivity : AppCompatActivity() {
 

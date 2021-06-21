@@ -15,9 +15,9 @@ import com.pcm.mvvmdatabasedemo.db.AppDatabase
 import com.pcm.mvvmdatabasedemo.db.TodoViewModel
 import com.pcm.mvvmdatabasedemo.db.TodoViewModelFactory
 import com.pcm.mvvmdatabasedemo.db.entity.TodoEntity
+import com.pcm.mvvmdatabasedemo.extensions.setToolbar
 import com.pcm.mvvmdatabasedemo.listener.OnItemClickListener
 import com.pcm.mvvmdatabasedemo.model.TodoRepository
-import com.pcm.mvvmdatabasedemo.setToolbar
 
 class MainActivity : AppCompatActivity(), OnItemClickListener<TodoEntity> {
 

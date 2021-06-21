@@ -1,6 +1,5 @@
-package com.pcm.mvvmdatabasedemo
+package com.pcm.mvvmdatabasedemo.extensions
 
-import android.content.Intent
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar

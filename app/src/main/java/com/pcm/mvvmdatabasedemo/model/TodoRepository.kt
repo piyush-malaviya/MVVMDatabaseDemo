@@ -1,4 +1,4 @@
-package com.pcm.mvvmdatabasedemo.repository
+package com.pcm.mvvmdatabasedemo.model
 
 import com.pcm.mvvmdatabasedemo.db.dao.TodoDao
 import com.pcm.mvvmdatabasedemo.db.entity.TodoEntity

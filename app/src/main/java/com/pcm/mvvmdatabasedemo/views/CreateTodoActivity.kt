@@ -1,15 +1,18 @@
-package com.pcm.mvvmdatabasedemo
+package com.pcm.mvvmdatabasedemo.views
 
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.pcm.mvvmdatabasedemo.R
 import com.pcm.mvvmdatabasedemo.databinding.ActivityCreateTodoBinding
 import com.pcm.mvvmdatabasedemo.db.AppDatabase
 import com.pcm.mvvmdatabasedemo.db.TodoViewModel
 import com.pcm.mvvmdatabasedemo.db.TodoViewModelFactory
 import com.pcm.mvvmdatabasedemo.db.entity.TodoEntity
-import com.pcm.mvvmdatabasedemo.repository.TodoRepository
+import com.pcm.mvvmdatabasedemo.model.TodoRepository
+import com.pcm.mvvmdatabasedemo.setToolbarWithBack
+import com.pcm.mvvmdatabasedemo.showToast
 
 class CreateTodoActivity : AppCompatActivity() {
 

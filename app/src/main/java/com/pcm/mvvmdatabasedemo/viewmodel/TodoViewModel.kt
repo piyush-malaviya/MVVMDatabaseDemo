@@ -2,7 +2,7 @@ package com.pcm.mvvmdatabasedemo.db
 
 import androidx.lifecycle.*
 import com.pcm.mvvmdatabasedemo.db.entity.TodoEntity
-import com.pcm.mvvmdatabasedemo.repository.TodoRepository
+import com.pcm.mvvmdatabasedemo.model.TodoRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

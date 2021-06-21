@@ -1,4 +1,4 @@
-package com.pcm.mvvmdatabasedemo
+package com.pcm.mvvmdatabasedemo.adapter
 
 import android.os.Handler
 import android.os.Looper

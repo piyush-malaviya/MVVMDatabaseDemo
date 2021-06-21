@@ -5,19 +5,18 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.pcm.mvvmdatabasedemo.R
 import com.pcm.mvvmdatabasedemo.adapter.TodoAdapter
 import com.pcm.mvvmdatabasedemo.databinding.ActivityMainBinding
 import com.pcm.mvvmdatabasedemo.db.AppDatabase
-import com.pcm.mvvmdatabasedemo.db.TodoViewModel
-import com.pcm.mvvmdatabasedemo.db.TodoViewModelFactory
 import com.pcm.mvvmdatabasedemo.db.entity.TodoEntity
 import com.pcm.mvvmdatabasedemo.extensions.setToolbar
 import com.pcm.mvvmdatabasedemo.listener.OnItemClickListener
 import com.pcm.mvvmdatabasedemo.model.TodoRepository
+import com.pcm.mvvmdatabasedemo.viewmodel.TodoViewModel
+import com.pcm.mvvmdatabasedemo.viewmodel.TodoViewModelFactory
 
 class MainActivity : AppCompatActivity(), OnItemClickListener<TodoEntity> {
 
@@ -58,7 +57,7 @@ class MainActivity : AppCompatActivity(), OnItemClickListener<TodoEntity> {
             )
         }
 
-        todoViewModel.allTodo.observe(this, Observer {
+        todoViewModel.allTodo.observe(this, {
             it?.let { todoAdapter?.setItems(ArrayList(it)) }
         })
 

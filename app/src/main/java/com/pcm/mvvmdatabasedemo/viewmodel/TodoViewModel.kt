@@ -1,4 +1,4 @@
-package com.pcm.mvvmdatabasedemo.db
+package com.pcm.mvvmdatabasedemo.viewmodel
 
 import androidx.lifecycle.*
 import com.pcm.mvvmdatabasedemo.db.entity.TodoEntity
